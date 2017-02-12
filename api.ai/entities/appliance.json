@@ -1,0 +1,52 @@
+{
+  "id": "a3a19964-cd93-4b96-9fc0-d3c442bcc022",
+  "name": "appliance",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "dishwasher",
+      "synonyms": [
+        "dishwasher"
+      ]
+    },
+    {
+      "value": "dryer",
+      "synonyms": [
+        "dryer"
+      ]
+    },
+    {
+      "value": "washing machine",
+      "synonyms": [
+        "washing machine"
+      ]
+    },
+    {
+      "value": "microwave",
+      "synonyms": [
+        "microwave"
+      ]
+    },
+    {
+      "value": "washer",
+      "synonyms": [
+        "washer"
+      ]
+    },
+    {
+      "value": "heater",
+      "synonyms": [
+        "heater"
+      ]
+    },
+    {
+      "value": "air condition",
+      "synonyms": [
+        "air condition",
+        "AC"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

@@ -1,0 +1,181 @@
+{
+  "userSays": [
+    {
+      "id": "f9e5389a-314f-45be-85c9-e097f14a6b22",
+      "data": [
+        {
+          "text": "could you please turn on the dishwasher for me?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "2e2b6bc4-81ad-42d9-bba3-75a2d1c46fc4",
+      "data": [
+        {
+          "text": "turn off the dishwasher"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "bcb3b70b-aae1-4db8-93e2-9073e3c3ad64",
+      "data": [
+        {
+          "text": "start the dishwasher"
+        }
+      ],
+      "isTemplate": false,
+      "count": 3
+    },
+    {
+      "id": "5d9bd5aa-abfe-4883-85c3-838bd45ad211",
+      "data": [
+        {
+          "text": "turn off",
+          "alias": "action",
+          "meta": "@action",
+          "userDefined": false
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "dishwasher",
+          "alias": "appliance",
+          "meta": "@appliance",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "4de20c06-523e-49e8-934b-252d72bbe3dd",
+      "data": [
+        {
+          "text": "start",
+          "alias": "action",
+          "meta": "@action",
+          "userDefined": false
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "dishwasher",
+          "alias": "appliance",
+          "meta": "@appliance",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 3
+    },
+    {
+      "id": "7bec67c3-b4dd-4624-9b96-74ed5abc75d9",
+      "data": [
+        {
+          "text": "could you please "
+        },
+        {
+          "text": "turn on",
+          "alias": "action",
+          "meta": "@action",
+          "userDefined": false
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "dishwasher",
+          "alias": "appliance",
+          "meta": "@appliance",
+          "userDefined": false
+        },
+        {
+          "text": " for me?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "b010e307-56b6-4586-b3f0-50d67f570590",
+      "data": [
+        {
+          "text": "can you please "
+        },
+        {
+          "text": "turn on",
+          "alias": "action",
+          "meta": "@action",
+          "userDefined": false
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "dishwasher",
+          "alias": "appliance",
+          "meta": "@appliance",
+          "userDefined": false
+        },
+        {
+          "text": " for me?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c94263ba-af68-4755-a458-0008bed41835",
+  "name": "appliance.control",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "dishwasher.on.off",
+      "affectedContexts": [
+        {
+          "name": "dishwasher",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@action",
+          "name": "action",
+          "value": "$action",
+          "prompts": [],
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@appliance",
+          "name": "appliance",
+          "value": "$appliance",
+          "prompts": [
+            "What would you like me to do with $appliance"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ok. I will $action the $appliance for you."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

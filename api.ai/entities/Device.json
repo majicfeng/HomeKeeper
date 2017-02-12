@@ -1,0 +1,41 @@
+{
+  "id": "8ce4c49a-bb89-4058-9f45-c234b64f8dd1",
+  "name": "Device",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "door",
+      "synonyms": [
+        "door"
+      ]
+    },
+    {
+      "value": "curtain",
+      "synonyms": [
+        "curtain"
+      ]
+    },
+    {
+      "value": "temperature",
+      "synonyms": [
+        "temperature",
+        "thermostat"
+      ]
+    },
+    {
+      "value": "TV",
+      "synonyms": [
+        "TV",
+        "television"
+      ]
+    },
+    {
+      "value": "speaker",
+      "synonyms": [
+        "speaker"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

@@ -1,0 +1,341 @@
+{
+  "userSays": [
+    {
+      "id": "24319433-c83a-4f03-b05c-2ffb1f8ad557",
+      "data": [
+        {
+          "text": "can you please "
+        },
+        {
+          "text": "start",
+          "alias": "action",
+          "meta": "@action",
+          "userDefined": false
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "dryer",
+          "alias": "Device",
+          "meta": "@Device",
+          "userDefined": false
+        },
+        {
+          "text": " for me?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "6f77dad3-0fd1-4cfc-b493-244ed6775ca3",
+      "data": [
+        {
+          "text": "turn on",
+          "alias": "action",
+          "meta": "@action",
+          "userDefined": false
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "tv",
+          "alias": "Device",
+          "meta": "@Device",
+          "userDefined": false
+        },
+        {
+          "text": " in the "
+        },
+        {
+          "text": "bedroom",
+          "alias": "Room",
+          "meta": "@Room",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "29f103b5-ea86-4cb3-b343-9021720db80c",
+      "data": [
+        {
+          "text": "turn off",
+          "alias": "action",
+          "meta": "@action",
+          "userDefined": false
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "TV",
+          "alias": "Device",
+          "meta": "@Device",
+          "userDefined": false
+        },
+        {
+          "text": " in the "
+        },
+        {
+          "text": "living room",
+          "alias": "Room",
+          "meta": "@Room",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f968ffa8-e062-4f76-a1b7-7376b24d7059",
+      "data": [
+        {
+          "text": "turn off",
+          "alias": "action",
+          "meta": "@action",
+          "userDefined": false
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "TV",
+          "alias": "Device",
+          "meta": "@Device",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "65a75452-7edf-4fa5-9744-6a76890e3140",
+      "data": [
+        {
+          "text": "turn off",
+          "alias": "action",
+          "meta": "@action",
+          "userDefined": false
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "bathroom",
+          "alias": "Room",
+          "meta": "@Room",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "light",
+          "alias": "Device",
+          "meta": "@Device",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ef49aed3-6310-46b6-a414-9c43b57110b2",
+      "data": [
+        {
+          "text": "open",
+          "alias": "action",
+          "meta": "@action",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "kitchen",
+          "alias": "Room",
+          "meta": "@Room",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "door",
+          "alias": "Device",
+          "meta": "@Device",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "db090a91-9bad-4104-8954-4322f5bd559d",
+      "data": [
+        {
+          "text": "It is really "
+        },
+        {
+          "text": "cold",
+          "alias": "temperature",
+          "meta": "@sys.temperature",
+          "userDefined": true
+        },
+        {
+          "text": " in the guest "
+        },
+        {
+          "text": "bedroom",
+          "alias": "Room",
+          "meta": "@Room",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "27511cab-86eb-4aa5-b7a3-44ec62bb785c",
+      "data": [
+        {
+          "text": "open",
+          "alias": "action",
+          "meta": "@action",
+          "userDefined": false
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "door",
+          "alias": "Device",
+          "meta": "@Device",
+          "userDefined": false
+        },
+        {
+          "text": " of my primary "
+        },
+        {
+          "text": "bedroom",
+          "alias": "Room",
+          "meta": "@Room",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7f35e6af-c79f-4bfe-adb0-f494ae1b0a90",
+      "data": [
+        {
+          "text": "turn on",
+          "alias": "action",
+          "meta": "@action",
+          "userDefined": false
+        },
+        {
+          "text": " my "
+        },
+        {
+          "text": "under cabinet",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "light",
+          "alias": "Device",
+          "meta": "@Device",
+          "userDefined": false
+        },
+        {
+          "text": " in the "
+        },
+        {
+          "text": "kitchen",
+          "alias": "Room",
+          "meta": "@Room",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "423a29c7-5bd1-4ee6-886f-bbeef523bbe5",
+  "name": "device.control",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "home.control",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@action",
+          "name": "action",
+          "value": "$action",
+          "prompts": [
+            "What would you like to do with $Device"
+          ],
+          "isList": true
+        },
+        {
+          "required": true,
+          "dataType": "@Device",
+          "name": "Device",
+          "value": "$Device",
+          "prompts": [
+            "What device you would like to control?"
+          ],
+          "isList": true
+        },
+        {
+          "required": true,
+          "dataType": "@Room",
+          "name": "Room",
+          "value": "$Room",
+          "prompts": [
+            "Which room are you talking about?"
+          ],
+          "isList": true
+        },
+        {
+          "required": false,
+          "dataType": "@location",
+          "name": "location",
+          "value": "$location",
+          "isList": true
+        },
+        {
+          "dataType": "@sys.temperature",
+          "name": "temperature",
+          "value": "$temperature",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "OK. I will $action the $Device in the $Room for you!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

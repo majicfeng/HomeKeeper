@@ -1,0 +1,55 @@
+{
+  "id": "ee61e327-df7a-4127-825e-1958161c83a3",
+  "name": "Room",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Kitchen",
+      "synonyms": [
+        "Kitchen"
+      ]
+    },
+    {
+      "value": "living room",
+      "synonyms": [
+        "living room",
+        "sitting room"
+      ]
+    },
+    {
+      "value": "dining room",
+      "synonyms": [
+        "dining room"
+      ]
+    },
+    {
+      "value": "Bedroom",
+      "synonyms": [
+        "Bedroom"
+      ]
+    },
+    {
+      "value": "study room",
+      "synonyms": [
+        "study room"
+      ]
+    },
+    {
+      "value": "bathroom",
+      "synonyms": [
+        "bathroom",
+        "restroom",
+        "washroom",
+        "wc"
+      ]
+    },
+    {
+      "value": "balcony",
+      "synonyms": [
+        "balcony"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}
