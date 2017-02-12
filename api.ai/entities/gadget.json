@@ -1,0 +1,24 @@
+{
+  "id": "845008b2-bc24-44d1-8247-56d3eec06ddd",
+  "name": "gadget",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "light",
+      "synonyms": [
+        "light",
+        "bulb"
+      ]
+    },
+    {
+      "value": "outlet",
+      "synonyms": [
+        "outlet",
+        "socket",
+        "power"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

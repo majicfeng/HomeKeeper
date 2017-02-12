@@ -1,0 +1,52 @@
+{
+  "id": "2e653986-92d0-4851-be4c-e8503cfae781",
+  "name": "location",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "under",
+      "synonyms": [
+        "under",
+        "beneath"
+      ]
+    },
+    {
+      "value": "on the ceiling",
+      "synonyms": [
+        "on the ceiling"
+      ]
+    },
+    {
+      "value": "close to",
+      "synonyms": [
+        "close to"
+      ]
+    },
+    {
+      "value": "next to",
+      "synonyms": [
+        "next to"
+      ]
+    },
+    {
+      "value": "above",
+      "synonyms": [
+        "above"
+      ]
+    },
+    {
+      "value": "at the left",
+      "synonyms": [
+        "at the left"
+      ]
+    },
+    {
+      "value": "at the right",
+      "synonyms": [
+        "at the right"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

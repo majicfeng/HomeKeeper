@@ -1,0 +1,175 @@
+{
+  "userSays": [
+    {
+      "id": "6f5cef8d-a388-4bd3-b75e-931d0bdd9bfb",
+      "data": [
+        {
+          "text": "turn on",
+          "alias": "action",
+          "meta": "@action",
+          "userDefined": false
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "light",
+          "alias": "gadget",
+          "meta": "@gadget",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "51ac6f97-06d8-415a-89ee-0d99504a750e",
+      "data": [
+        {
+          "text": "turn off",
+          "alias": "action",
+          "meta": "@action",
+          "userDefined": false
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "outlet",
+          "alias": "gadget",
+          "meta": "@gadget",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "d5e3e5cb-2acd-450c-8c6a-36e971c0c59f",
+      "data": [
+        {
+          "text": "turn off the outlet closed to the kitchen door"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9bbf2df7-a610-47cf-8457-752becae119b",
+      "data": [
+        {
+          "text": "turn off the outlet closed to the dootr in kitchen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f4ebf348-09e3-437f-874f-de957cf50e32",
+      "data": [
+        {
+          "text": "turn on",
+          "alias": "action",
+          "meta": "@action",
+          "userDefined": false
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "light",
+          "alias": "gadget",
+          "meta": "@gadget",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "under the cabinet",
+          "alias": "location",
+          "meta": "@location",
+          "userDefined": true
+        },
+        {
+          "text": " in the "
+        },
+        {
+          "text": "kitchen",
+          "alias": "Room",
+          "meta": "@Room",
+          "userDefined": false
+        },
+        {
+          "text": " for me."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "69f8b9ce-120b-4ff6-8014-e5bab927cb8e",
+  "name": "gadget.control",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "gadget.control",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@action",
+          "name": "action",
+          "value": "$action",
+          "prompts": [
+            "what do you want to do with $gadget"
+          ],
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@gadget",
+          "name": "gadget",
+          "value": "$gadget",
+          "prompts": [
+            "what gadget would you like to control?"
+          ],
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@Room",
+          "name": "Room",
+          "value": "$Room",
+          "prompts": [
+            "which room is the $gadget located in?"
+          ],
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@location",
+          "name": "location",
+          "value": "$location",
+          "prompts": [
+            "which $gadget in the $Room exactly?"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ok. I will $action that $gadget in the $Room"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

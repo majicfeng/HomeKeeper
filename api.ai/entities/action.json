@@ -1,0 +1,61 @@
+{
+  "id": "78ff4e20-a9e3-4a65-94ca-48a62003476b",
+  "name": "action",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "turn on",
+      "synonyms": [
+        "turn on"
+      ]
+    },
+    {
+      "value": "turn off",
+      "synonyms": [
+        "turn off"
+      ]
+    },
+    {
+      "value": "turn high",
+      "synonyms": [
+        "turn high",
+        "adjust high",
+        "increase"
+      ]
+    },
+    {
+      "value": "turn low",
+      "synonyms": [
+        "turn low",
+        "adjust low",
+        "decrease"
+      ]
+    },
+    {
+      "value": "open",
+      "synonyms": [
+        "open"
+      ]
+    },
+    {
+      "value": "close",
+      "synonyms": [
+        "close"
+      ]
+    },
+    {
+      "value": "start",
+      "synonyms": [
+        "start"
+      ]
+    },
+    {
+      "value": "stop",
+      "synonyms": [
+        "stop"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}
